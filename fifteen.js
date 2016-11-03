@@ -65,12 +65,7 @@ function areaSetup(){
     puzzleBlocks[count].setAttribute("class", "puzzlepiece");
     puzzleBlocks[count].style.position = "relative";
     puzzleBlocks[count].style.float = "left";
-    //puzzleBlocks[count].style.backgroundPosition = backgroundCordinateX + "px " + backgroundCordinateY + "px ";
-    /*puzzleBlocks[count].style.top = "0px";
-    puzzleBlocks[count].style.right = "0px";
-    puzzleBlocks[count].style.bottom = "0px";
-    puzzleBlocks[count].style.left = "0px";*/
-    
+   
     /*Condition used to vary X & Y cordinates to properly display background picture
     if (backgroundCordinateX != -300){
       backgroundCordinateX -= 100;
